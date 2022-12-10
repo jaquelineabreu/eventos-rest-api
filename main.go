@@ -8,6 +8,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+
 func homeLink(w http.ResponseWriter, r *http.Request){
 	fmt.Fprintf(w, "Bem-vindo ao lar!")
 }
